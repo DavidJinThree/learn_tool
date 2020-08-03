@@ -1,4 +1,61 @@
+# install
+https://git-scm.com/download/win
+
+# config
+```
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+```
+# create repository
+## create dir
+```
+$ mkdir learngit
+$ cd learngit
+$ pwd
+```
+## init repository
+```
+$ git init
+```
+
+# manage files
+## create file
+```
+$ touch readme.txt
+$ vi readme.txt
+```
+```
+Git is a version control system.
+Git is free software.
+```
+## add file to repository
+```
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+```
+## modify file
+```
+vi readme.txt
+```
+## inquire repository status
+$ git status
+## see detailed modify
+$ git diff readme.txt
+## submit again
+$ git add readme.txt
+$ git status
+$ git commit -m "add distributed"
+$ git status
+## show changes
+$ git log
+
 # version
+## show version
+- head^
+- head^^
+- head^^^
+- head\~100
+
 ## version back
 ```
 $ git log
@@ -7,6 +64,7 @@ $ git reset --hard HEAD^
 $ git reflog
 $ git reset --hard [commit id]
 ```
+> revert A → B → C to A → B → C → B
 ## stage magage
 $ git diff HEAD -- readme.txt
 ## revocate
