@@ -1,6 +1,10 @@
 # reference
 https://zhuanlan.zhihu.com/p/25198543
 https://www.zhihu.com/question/58033789/answer/254673663
+## conda in powershell
+https://blog.csdn.net/qq_38163755/article/details/88144767
+conda install -n root -c pscondaenvs pscondaenvs
+Set-ExecutionPolicy RemoteSigned
 
 # normal
 activate // 切换到base环境

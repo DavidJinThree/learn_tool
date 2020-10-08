@@ -2,7 +2,8 @@
 https://keelii.com/2016/06/13/awsome-window-vimrc/
 https://github.com/zhangguixu/window-vim
 # vim学习笔记
-https://zhuanlan.zhihu.com/p/37478384
+- https://zhuanlan.zhihu.com/p/37478384
+- [新手如何正确入门vim](https://www.bilibili.com/video/BV1BJ411q7ax)
 
 # bundle插件管理
 BundleInstallf
